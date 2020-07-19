@@ -17,6 +17,7 @@
 		7D4C738224C42C970078F831 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4C738124C42C970078F831 /* RegisterViewController.swift */; };
 		7D4C738424C42CA50078F831 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4C738324C42CA50078F831 /* LoginViewController.swift */; };
 		7D4C738624C42CB80078F831 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4C738524C42CB80078F831 /* ChatViewController.swift */; };
+		7D6BF5D424C48877006CCDF5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BF5D324C48877006CCDF5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		7D4C738124C42C970078F831 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7D4C738324C42CA50078F831 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7D4C738524C42CB80078F831 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7D6BF5D324C48877006CCDF5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				7D4C737424C410BA0078F831 /* Assets.xcassets */,
 				7D4C737624C410BA0078F831 /* LaunchScreen.storyboard */,
 				7D4C737924C410BA0078F831 /* Info.plist */,
+				7D6BF5D324C48877006CCDF5 /* GoogleService-Info.plist */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -113,7 +116,6 @@
 				76E32845FDF4E22C3086FD30 /* Pods-ChatApp.debug.xcconfig */,
 				438A51B3FC41334F59EBD388 /* Pods-ChatApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,7 +130,7 @@
 				7D4C736424C410B80078F831 /* Sources */,
 				7D4C736524C410B80078F831 /* Frameworks */,
 				7D4C736624C410B80078F831 /* Resources */,
-				326CD1ADCB8417B8D5CA824D /* [CP] Embed Pods Frameworks */,
+				2B601EDEA8B88404AB869925 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D4C737824C410BA0078F831 /* LaunchScreen.storyboard in Resources */,
+				7D6BF5D424C48877006CCDF5 /* GoogleService-Info.plist in Resources */,
 				7D4C737524C410BA0078F831 /* Assets.xcassets in Resources */,
 				7D4C737324C410B80078F831 /* Main.storyboard in Resources */,
 			);
@@ -208,7 +211,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		326CD1ADCB8417B8D5CA824D /* [CP] Embed Pods Frameworks */ = {
+		2B601EDEA8B88404AB869925 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
