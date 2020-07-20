@@ -196,7 +196,7 @@
                                             <constraint firstAttribute="height" constant="120" id="Lcy-wT-5Hc"/>
                                         </constraints>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0if-gE-V4w">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1@2.com" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0if-gE-V4w">
                                         <rect key="frame" x="100" y="43" width="214" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="WVv-Qz-EqR"/>
@@ -238,7 +238,7 @@
                                             <constraint firstAttribute="height" constant="120" id="qfG-mq-3B9"/>
                                         </constraints>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ha-qq-y0W">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ha-qq-y0W">
                                         <rect key="frame" x="40" y="40" width="334" height="46"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="46" id="FjH-pt-r9D"/>
@@ -331,7 +331,13 @@
                         <color key="backgroundColor" name="BrandPurple"/>
                         <viewLayoutGuide key="safeArea" id="iMe-ka-XRO"/>
                     </view>
-                    <navigationItem key="navigationItem" id="yCO-xu-PCK"/>
+                    <navigationItem key="navigationItem" id="yCO-xu-PCK">
+                        <barButtonItem key="rightBarButtonItem" title="Log out" id="b6Z-rg-r6D">
+                            <connections>
+                                <action selector="logOutPressed:" destination="NwF-vB-9QB" id="LrR-w9-tQi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="messageTextfield" destination="tqj-tv-HHm" id="09k-pi-0lk"/>
                         <outlet property="tabelView" destination="xv6-gf-qEK" id="UK9-NL-gCg"/>
